@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.0.0-Girona" projectname="">
+<qgis projectname="" version="3.0.0-Girona">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -18,26 +18,26 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" id="ne_10m_admin_0_boundary_lines_land_eba940c7_05dd_4f8e_8732_810e4b80bd23" source="../../GitPrac2/ne_10m_admin_0_boundary_lines_land/ne_10m_admin_0_boundary_lines_land.shp" checked="Qt::Checked" name="ne_10m_admin_0_boundary_lines_land">
+    <layer-tree-layer name=" ne_10m_airports" id="_7fb7e6da_42d8_4b03_bcb6_6aabcc7563ae" checked="Qt::Checked" expanded="1" providerKey="ogr" source="./ne_10m_airports">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
-      <item>ne_10m_admin_0_boundary_lines_land_eba940c7_05dd_4f8e_8732_810e4b80bd23</item>
+      <item>_7fb7e6da_42d8_4b03_bcb6_6aabcc7563ae</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings intersection-snapping="0" enabled="0" unit="1" mode="2" tolerance="12" type="1">
+  <snapping-settings type="1" intersection-snapping="0" enabled="0" mode="2" unit="1" tolerance="12">
     <individual-layer-settings>
-      <layer-setting id="ne_10m_admin_0_boundary_lines_land_eba940c7_05dd_4f8e_8732_810e4b80bd23" enabled="0" units="1" tolerance="12" type="1"/>
+      <layer-setting id="_7fb7e6da_42d8_4b03_bcb6_6aabcc7563ae" type="1" enabled="0" tolerance="12" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-148.05512802982488552</xmin>
-      <ymin>-58.25082962027494915</ymin>
-      <xmax>148.02720638482506388</xmax>
-      <ymax>73.20521621727513661</ymax>
+      <xmin>-200.28171143389175768</xmin>
+      <ymin>-80.51375061846746917</ymin>
+      <xmax>171.76591944027933323</xmax>
+      <ymax>58.11585056765571267</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -55,28 +55,28 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Checked" open="true" drawingOrder="-1" name="ne_10m_admin_0_boundary_lines_land" showFeatureCount="0">
+    <legendlayer name=" ne_10m_airports" open="true" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup hidden="false" open="true">
-        <legendlayerfile layerid="ne_10m_admin_0_boundary_lines_land_eba940c7_05dd_4f8e_8732_810e4b80bd23" isInOverview="0" visible="1"/>
+        <legendlayerfile layerid="_7fb7e6da_42d8_4b03_bcb6_6aabcc7563ae" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer minScale="1e+8" geometry="Line" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" readOnly="0" maxScale="0" autoRefreshTime="0" simplifyDrawingHints="1" simplifyLocal="1" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0" refreshOnNotifyMessage="">
+    <maplayer minScale="1e+8" labelsEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" type="vector" simplifyDrawingHints="1" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" maxScale="0" autoRefreshTime="0" geometry="Point" readOnly="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
       <extent>
-        <xmin>-141.00554863899986913</xmin>
-        <ymin>-55.12092376699994389</ymin>
-        <xmax>140.97762699400004749</xmax>
-        <ymax>70.07531036400011715</ymax>
+        <xmin>-175.13563500000000772</xmin>
+        <ymin>-53.78147460583159756</ymin>
+        <xmax>179.19544202302000713</xmax>
+        <ymax>78.24671700000000385</ymax>
       </extent>
-      <id>ne_10m_admin_0_boundary_lines_land_eba940c7_05dd_4f8e_8732_810e4b80bd23</id>
-      <datasource>../../GitPrac2/ne_10m_admin_0_boundary_lines_land/ne_10m_admin_0_boundary_lines_land.shp</datasource>
+      <id>_7fb7e6da_42d8_4b03_bcb6_6aabcc7563ae</id>
+      <datasource>./ne_10m_airports</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>ne_10m_admin_0_boundary_lines_land</layername>
+      <layername> ne_10m_airports</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -122,30 +122,33 @@
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol alpha="1" name="0" type="line" clip_to_extent="1">
-            <layer class="SimpleLine" pass="0" enabled="1" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="50,223,136,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="marker" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="0,72,159,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" value="" type="QString"/>
+                  <Option name="name" type="QString" value=""/>
                   <Option name="properties"/>
-                  <Option name="type" value="collection" type="QString"/>
+                  <Option name="type" type="QString" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -159,70 +162,14 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="featurecla">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="comment">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="adm0_usa">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="adm0_left">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="adm0_right">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="adm0_a3_l">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="adm0_a3_r">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="sov_a3_l">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="sov_a3_r">
           <editWidget type="">
             <config>
               <Option/>
@@ -236,49 +183,49 @@
             </config>
           </editWidget>
         </field>
-        <field name="labelrank">
+        <field name="name">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="scalerank">
+        <field name="abbrev">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="min_zoom">
+        <field name="location">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="min_label">
+        <field name="gps_code">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="note">
+        <field name="iata_code">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="adm0_abr_l">
+        <field name="wikipedia">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="adm0_abr_r">
+        <field name="natlscale">
           <editWidget type="">
             <config>
               <Option/>
@@ -287,91 +234,59 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="featurecla" index="0" name=""/>
-        <alias field="name" index="1" name=""/>
-        <alias field="comment" index="2" name=""/>
-        <alias field="adm0_usa" index="3" name=""/>
-        <alias field="adm0_left" index="4" name=""/>
-        <alias field="adm0_right" index="5" name=""/>
-        <alias field="adm0_a3_l" index="6" name=""/>
-        <alias field="adm0_a3_r" index="7" name=""/>
-        <alias field="sov_a3_l" index="8" name=""/>
-        <alias field="sov_a3_r" index="9" name=""/>
-        <alias field="type" index="10" name=""/>
-        <alias field="labelrank" index="11" name=""/>
-        <alias field="scalerank" index="12" name=""/>
-        <alias field="min_zoom" index="13" name=""/>
-        <alias field="min_label" index="14" name=""/>
-        <alias field="note" index="15" name=""/>
-        <alias field="adm0_abr_l" index="16" name=""/>
-        <alias field="adm0_abr_r" index="17" name=""/>
+        <alias name="" index="0" field="scalerank"/>
+        <alias name="" index="1" field="featurecla"/>
+        <alias name="" index="2" field="type"/>
+        <alias name="" index="3" field="name"/>
+        <alias name="" index="4" field="abbrev"/>
+        <alias name="" index="5" field="location"/>
+        <alias name="" index="6" field="gps_code"/>
+        <alias name="" index="7" field="iata_code"/>
+        <alias name="" index="8" field="wikipedia"/>
+        <alias name="" index="9" field="natlscale"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="featurecla" expression="" applyOnUpdate="0"/>
-        <default field="name" expression="" applyOnUpdate="0"/>
-        <default field="comment" expression="" applyOnUpdate="0"/>
-        <default field="adm0_usa" expression="" applyOnUpdate="0"/>
-        <default field="adm0_left" expression="" applyOnUpdate="0"/>
-        <default field="adm0_right" expression="" applyOnUpdate="0"/>
-        <default field="adm0_a3_l" expression="" applyOnUpdate="0"/>
-        <default field="adm0_a3_r" expression="" applyOnUpdate="0"/>
-        <default field="sov_a3_l" expression="" applyOnUpdate="0"/>
-        <default field="sov_a3_r" expression="" applyOnUpdate="0"/>
-        <default field="type" expression="" applyOnUpdate="0"/>
-        <default field="labelrank" expression="" applyOnUpdate="0"/>
-        <default field="scalerank" expression="" applyOnUpdate="0"/>
-        <default field="min_zoom" expression="" applyOnUpdate="0"/>
-        <default field="min_label" expression="" applyOnUpdate="0"/>
-        <default field="note" expression="" applyOnUpdate="0"/>
-        <default field="adm0_abr_l" expression="" applyOnUpdate="0"/>
-        <default field="adm0_abr_r" expression="" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="scalerank"/>
+        <default expression="" applyOnUpdate="0" field="featurecla"/>
+        <default expression="" applyOnUpdate="0" field="type"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="abbrev"/>
+        <default expression="" applyOnUpdate="0" field="location"/>
+        <default expression="" applyOnUpdate="0" field="gps_code"/>
+        <default expression="" applyOnUpdate="0" field="iata_code"/>
+        <default expression="" applyOnUpdate="0" field="wikipedia"/>
+        <default expression="" applyOnUpdate="0" field="natlscale"/>
       </defaults>
       <constraints>
-        <constraint field="featurecla" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="name" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="comment" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="adm0_usa" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="adm0_left" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="adm0_right" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="adm0_a3_l" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="adm0_a3_r" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="sov_a3_l" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="sov_a3_r" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="type" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="labelrank" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="scalerank" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="min_zoom" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="min_label" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="note" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="adm0_abr_l" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="adm0_abr_r" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="scalerank" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="featurecla" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="type" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="name" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="abbrev" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="location" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="gps_code" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="iata_code" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="wikipedia" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="natlscale" unique_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="featurecla" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="comment" desc="" exp=""/>
-        <constraint field="adm0_usa" desc="" exp=""/>
-        <constraint field="adm0_left" desc="" exp=""/>
-        <constraint field="adm0_right" desc="" exp=""/>
-        <constraint field="adm0_a3_l" desc="" exp=""/>
-        <constraint field="adm0_a3_r" desc="" exp=""/>
-        <constraint field="sov_a3_l" desc="" exp=""/>
-        <constraint field="sov_a3_r" desc="" exp=""/>
-        <constraint field="type" desc="" exp=""/>
-        <constraint field="labelrank" desc="" exp=""/>
-        <constraint field="scalerank" desc="" exp=""/>
-        <constraint field="min_zoom" desc="" exp=""/>
-        <constraint field="min_label" desc="" exp=""/>
-        <constraint field="note" desc="" exp=""/>
-        <constraint field="adm0_abr_l" desc="" exp=""/>
-        <constraint field="adm0_abr_r" desc="" exp=""/>
+        <constraint desc="" exp="" field="scalerank"/>
+        <constraint desc="" exp="" field="featurecla"/>
+        <constraint desc="" exp="" field="type"/>
+        <constraint desc="" exp="" field="name"/>
+        <constraint desc="" exp="" field="abbrev"/>
+        <constraint desc="" exp="" field="location"/>
+        <constraint desc="" exp="" field="gps_code"/>
+        <constraint desc="" exp="" field="iata_code"/>
+        <constraint desc="" exp="" field="wikipedia"/>
+        <constraint desc="" exp="" field="natlscale"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <editform></editform>
@@ -394,49 +309,49 @@
     </maplayer>
   </projectlayers>
   <layerorder>
-    <layer id="ne_10m_admin_0_boundary_lines_land_eba940c7_05dd_4f8e_8732_810e4b80bd23"/>
+    <layer id="_7fb7e6da_42d8_4b03_bcb6_6aabcc7563ae"/>
   </layerorder>
   <properties>
-    <Measurement>
-      <AreaUnits type="QString"></AreaUnits>
-      <DistanceUnits type="QString"></DistanceUnits>
-    </Measurement>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <Gui>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-    </Gui>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
     </PositionPrecision>
-    <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
-    </Measure>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
     <PAL>
-      <SearchMethod type="int">0</SearchMethod>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPoint type="int">16</CandidatesPoint>
       <CandidatesLine type="int">50</CandidatesLine>
       <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
       <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
-      <CandidatesPoint type="int">16</CandidatesPoint>
+      <SearchMethod type="int">0</SearchMethod>
       <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
     </PAL>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
     <SpatialRefSys>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
   </properties>
   <visibility-presets/>
   <transformContext/>
